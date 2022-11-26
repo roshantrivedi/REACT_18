@@ -1,0 +1,15 @@
+Bundler Used : Parcel
+
+Parcel is a web application Bundler
+
+Bundler: Basically it combines & organizes all javascript code & put them in one file.
+         It also helps in maintaining all the dependencies required for the project.
+
+There are 2 ways to run parcel command.
+1. directly run parcel command using terminal
+2. using scripts by giving them in package.json file & then running them
+
+NPM VS NPX
+
+If using npm, first the package needs to be installed locally in package.json while
+using npx doesn't require installation. It can run & execute without installation.
