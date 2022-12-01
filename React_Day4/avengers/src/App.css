@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+#card{
+    width: 250px;
+    border : 2px solid brown;
+    padding: 10px;
+    margin: 15px;
+}
+
+#card > img{
+    width: 100%;
+}
+
+#applayout{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: brown;
+}
+
+h5, h6{
+    color: aliceblue;
+}
