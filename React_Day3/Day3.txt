@@ -1,0 +1,7 @@
+Build Functional Component
+
+Used JSX in building Component
+
+Used JSX to create a simple element
+
+Composition of element is done

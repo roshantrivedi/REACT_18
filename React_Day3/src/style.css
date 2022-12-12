@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.day3{
+    color:yellowgreen
+}
+
+.navbar{
+    display: flex;
+    background-color:darkgray;
+    width: 95%;
+    margin: 20px;
+    padding: 15px;
+}
+
+.search-bar{
+    margin-left: 1210px;
+    padding: 5px;
+    margin-right: 3px;
+}
