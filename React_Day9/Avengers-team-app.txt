@@ -1,0 +1,3 @@
+Team info app with Search functionality & data coming from Git API.
+
+Used 'react-router-dom' & implemented Link & Router functionality in the app.

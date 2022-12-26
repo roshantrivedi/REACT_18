@@ -1,0 +1,49 @@
+body {
+  background-color: #d8e2dc;
+}
+
+h1,h2,h4 {
+  text-align: center;
+  font-style: italic;
+  color: brown;
+}
+
+h5,
+h6 {
+  color: aliceblue;
+}
+
+button{
+  text-align: center;
+  margin: auto;
+  display: flex;
+  border: none;
+  border-radius: 8px;
+}
+
+.main-container{
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.form {
+  text-align: center;
+  padding: 6px;
+}
+
+#card {
+  width: 100px;
+  border: 2px solid rgb(18, 17, 17);
+  padding: 10px;
+  margin: 15px;
+}
+
+#card > img {
+  width: 100%;
+}
+
+#bodylayout {
+  display: flex;
+  flex-wrap: wrap;
+}
