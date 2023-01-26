@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
+import { Provider } from "react-redux";
 
+import { store } from "../redux/store.js";
 import HeadingComponent from "./HeadingComponent";
 import ThemeContext from "../context/ThemeContext.js";
 
@@ -13,11 +15,13 @@ export default function AppLayout() {
 
   return (
     <div className="main-container">
-      <HeadingComponent />
-      <ThemeContext.Provider value={{ theme: theme, setTheme: setTheme }}>
-        <button onClick={changeTheme}>Surprise Me</button>
+      <Provider store={store}>
+        <HeadingComponent />
+        <ThemeContext.Provider value={{ theme: theme, setTheme: setTheme }}>
+          <button onClick={changeTheme}>Surprise Me</button>
         <Outlet />
-      </ThemeContext.Provider>
+        </ThemeContext.Provider>
+      </Provider>
     </div>
   );
 }
